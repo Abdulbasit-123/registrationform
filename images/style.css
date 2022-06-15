@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@100&family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: pink;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    margin-top: 100px;
+}
+
+.div-1{
+    margin-top: 220px;
+    padding-left: 100px;
+    padding-right: 40px;
+    color: white;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.head-btn{
+        margin-top: 70px;
+        margin-bottom: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        margin-left: 20px;
+        color: white;
+        background-color:hsl(248, 32%, 49%);
+        border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+input{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.form-btn{
+    margin: 20px;
+    background-color:  hsl(154, 59%, 51%);
+    padding: 10px;
+    color: white;
+}
+
+.form-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.div-2{
+    margin-right: 100px;
+}
+
+form p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(246, 25%, 77%);
+    padding: 20px;
+}
+
+form p a {
+    text-decoration: none;
+    color:hsl(0, 100%, 74%) ;
+}
+
+@media (max-width: 1440px) {
+    body{
+        width: 100%;
+    }
+}
+
+@media  (min-width: 375px) {
+    body{
+        width: 100%;
+    }
+}
